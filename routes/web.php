@@ -45,7 +45,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 /*
 
-name('admin.')の次に入れるコマンド
+name('admin.')の次に入れるコード
 
 middleware('auth')->
 
